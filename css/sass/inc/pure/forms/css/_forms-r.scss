@@ -1,0 +1,62 @@
+@media only screen and (max-width : 480px) {
+    form button[type="submit"] {
+        margin: 0.7em 0 0;
+    }
+
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form input[type="url"],
+    form input[type="date"],
+    form input[type="month"],
+    form input[type="time"],
+    form input[type="datetime"],
+    form input[type="datetime-local"],
+    form input[type="week"],
+    form input[type="number"],
+    form input[type="search"],
+    form input[type="tel"],
+    form input[type="color"],
+    form label {
+        margin-bottom: 0.3em;
+        display: block;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"],
+    .form-group input[type="email"],
+    .form-group input[type="url"],
+    .form-group input[type="date"],
+    .form-group input[type="month"],
+    .form-group input[type="time"],
+    .form-group input[type="datetime"],
+    .form-group input[type="datetime-local"],
+    .form-group input[type="week"],
+    .form-group input[type="number"],
+    .form-group input[type="search"],
+    .form-group input[type="tel"],
+    .form-group input[type="color"] {
+        margin-bottom: 0;
+    }
+
+    .form-aligned .form-control-group label {
+        margin-bottom: 0.3em;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+
+    .form-aligned .form-controls {
+        margin: 1.5em 0 0 0;
+    }
+
+    /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+    form .form-help-inline,
+    .form-message-inline,
+    .form-message {
+        display: block;
+        font-size: 80%;
+        /* Increased bottom padding to make it group with its related input element. */
+        padding: 0.2em 0 0.8em;
+    }
+}
