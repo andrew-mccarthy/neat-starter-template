@@ -44,6 +44,16 @@ https://github.com/Sashmac/neat-starter-template`
 
 ## Documentation
 
+### Grunt
+
+A grunt build system has been added to this project. There are two build systems.
+
+* Dev build (grunt dev) 
+** Cleans up any left over minified js files to pass JSHint.
+* Final build (grunt)
+
+### HTML5 Boilerplate
+
 Take a look at the [documentation table of contents](doc/TOC.md). This
 documentation is bundled with the project, which makes it readily available for
 offline reading and provides a useful starting point for any documentation you
