@@ -1,28 +1,19 @@
-<<<<<<< HEAD
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# [Neat Starter Template](http://html5boilerplate.com)
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+Neat Starter Template is a simple boilerplate contaning a few extra to get you off the ground. 
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+Neat Starter Template contains:
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+* Bourbon
+* Neat
+* Forms and Tables from Pure, modified to work with base elements without having to declare any classes in css. (".pure-form" now targets "form" etc.)
 
+* Source: [https://github.com/Sashmac/neat-starter-template](https://github.com/Sashmac/neat-starter-template)
 
 ## Quick start
 
-Choose one of the following options:
-
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+Clone the git repo — `git clone
+https://github.com/Sashmac/neat-starter-template`
 
 
 ## Features
@@ -47,6 +38,9 @@ Choose one of the following options:
 * "Delete-key friendly." Easy to strip out parts you don't need.
 * Extensive inline and accompanying documentation.
 
+* Includes [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/)
+* Includes the Forms and Tables part of [Pure CSS](http://purecss.io/)
+
 
 ## Documentation
 
@@ -56,13 +50,9 @@ offline reading and provides a useful starting point for any documentation you
 want to write about your project.
 
 
-## Contributing
+## To-do
 
-Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
-developers have helped make the HTML5 Boilerplate what it is today.
-=======
-neat-starter-template
-=====================
+* Add grunt support for compiling, minifying, uglifying, autoprefixing, and concatination
 
 Html5 boilerplate with bourbon, neat and pure forms and tables
 >>>>>>> 8738a85af4c867cf5ab9a2c35a8b70730ab1d887
