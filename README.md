@@ -37,9 +37,9 @@ https://github.com/Sashmac/neat-starter-template`
 * Cross-domain Ajax and Flash.
 * "Delete-key friendly." Easy to strip out parts you don't need.
 * Extensive inline and accompanying documentation.
-
 * Includes [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/)
 * Includes the Forms and Tables part of [Pure CSS](http://purecss.io/)
+* Includes a Grunt build system.
 
 
 ## Documentation
@@ -49,7 +49,7 @@ https://github.com/Sashmac/neat-starter-template`
 A grunt build system has been added to this project. There are two build systems.
 
 * Dev build (grunt dev) 
-** Cleans up any left over minified js files to pass JSHint.
+    - Cleans up any left over minified js files to pass JSHint.
 * Final build (grunt)
 
 ### HTML5 Boilerplate
