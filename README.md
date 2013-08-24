@@ -50,6 +50,8 @@ A grunt build system has been added to this project. There are two build systems
 
 * Dev build (grunt dev) 
     - Cleans up any left over minified js files to pass JSHint.
+    - Compiles **SASS** for files in css/sass in to single expanded **main.css**
+    - Runs JSHint on all JS files, excluding files in the "**vendor**" directory
 * Final build (grunt)
 
 ### HTML5 Boilerplate
