@@ -1,6 +1,6 @@
 # [Neat Starter Template](http://html5boilerplate.com)
 
-Neat Starter Template is a simple boilerplate contaning a few extra to get you off the ground. 
+Neat Starter Template is a simple boilerplate contaning a little extra to get you off the ground. 
 
 Neat Starter Template contains:
 
@@ -17,7 +17,7 @@ https://github.com/Sashmac/neat-starter-template`
 
 **If you find any bugs, or would like to contribute, feel free to do so.**
 
-**If you have knowledge of testing, I would appreciate it if someone could whip up soe testing units for this project.**
+**If you have knowledge of testing, I would appreciate it if someone could whip up some testing units for this project.**
 
 ## Features
 
@@ -40,6 +40,7 @@ https://github.com/Sashmac/neat-starter-template`
 * Cross-domain Ajax and Flash.
 * "Delete-key friendly." Easy to strip out parts you don't need.
 * Extensive inline and accompanying documentation.
+
 * Includes [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/)
 * Includes the Forms and Tables part of [Pure CSS](http://purecss.io/)
 * Includes a Grunt build system.
@@ -73,10 +74,10 @@ documentation is bundled with the project, which makes it readily available for
 offline reading and provides a useful starting point for any documentation you
 want to write about your project.
 
-
 ## To-do
 
-* Add grunt support for compiling, minifying, uglifying, autoprefixing, and concatination
+* Find a better way to allow live reloading without the need for the Chrome plugin
+* Include some testing units
 
 Html5 boilerplate with bourbon, neat and pure forms and tables
 >>>>>>> 8738a85af4c867cf5ab9a2c35a8b70730ab1d887
