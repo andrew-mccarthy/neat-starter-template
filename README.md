@@ -15,6 +15,9 @@ Neat Starter Template contains:
 Clone the git repo — `git clone
 https://github.com/Sashmac/neat-starter-template`
 
+**If you find any bugs, or would like to contribute, feel free to do so.**
+
+**If you have knowledge of testing, I would appreciate it if someone could whip up soe testing units for this project.**
 
 ## Features
 
@@ -53,6 +56,15 @@ A grunt build system has been added to this project. There are two build systems
     - Compiles **SASS** for files in css/sass in to single expanded **main.css**
     - Runs JSHint on all JS files, excluding files in the **"vendor"** directory
 * Final build (grunt)
+    - Compiles SASS for files in css/sass in to single minfied MAIN.CSS file.
+    - Runs JSHint on all JS files, excluding files in the "vendor" directory.
+    - Concatinates all JS files.
+    - Uglifies concatinated js file.
+    - Compresses JPG and PNG images.
+
+**Use grunt watch:server to launch a livereload server. At the moment, this requires the [live reload](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) Chrome extension.**
+
+**Use @import to include any other .sccs files in to the final build. Compass only target _main.scss and its imports.**
 
 ### HTML5 Boilerplate
 
