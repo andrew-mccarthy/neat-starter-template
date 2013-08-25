@@ -1,6 +1,6 @@
 # [Neat Starter Template](http://html5boilerplate.com)
 
-Neat Starter Template is a simple boilerplate contaning a few extra to get you off the ground. 
+Neat Starter Template is a simple boilerplate contaning a little extra to get you off the ground. 
 
 Neat Starter Template contains:
 
@@ -15,6 +15,9 @@ Neat Starter Template contains:
 Clone the git repo — `git clone
 https://github.com/Sashmac/neat-starter-template`
 
+**If you find any bugs, or would like to contribute, feel free to do so.**
+
+**If you have knowledge of testing, I would appreciate it if someone could whip up some testing units for this project.**
 
 ## Features
 
@@ -40,19 +43,41 @@ https://github.com/Sashmac/neat-starter-template`
 
 * Includes [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/)
 * Includes the Forms and Tables part of [Pure CSS](http://purecss.io/)
+* Includes a Grunt build system.
 
 
 ## Documentation
+
+### Grunt
+
+A grunt build system has been added to this project. There are two build systems.
+
+* Dev build (grunt dev) 
+    - Cleans up any left over minified js files to pass JSHint.
+    - Compiles **SASS** for files in css/sass in to single expanded **main.css**
+    - Runs JSHint on all JS files, excluding files in the **"vendor"** directory
+* Final build (grunt)
+    - Compiles SASS for files in css/sass in to single minfied MAIN.CSS file.
+    - Runs JSHint on all JS files, excluding files in the "vendor" directory.
+    - Concatinates all JS files.
+    - Uglifies concatinated js file.
+    - Compresses JPG and PNG images.
+
+**Use grunt watch:server to launch a livereload server. At the moment, this requires the [live reload](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) Chrome extension.**
+
+**Use @import to include any other .sccs files in to the final build. Compass only target _main.scss and its imports.**
+
+### HTML5 Boilerplate
 
 Take a look at the [documentation table of contents](doc/TOC.md). This
 documentation is bundled with the project, which makes it readily available for
 offline reading and provides a useful starting point for any documentation you
 want to write about your project.
 
-
 ## To-do
 
-* Add grunt support for compiling, minifying, uglifying, autoprefixing, and concatination
+* Find a better way to allow live reloading without the need for the Chrome plugin
+* Include some testing units
 
 Html5 boilerplate with bourbon, neat and pure forms and tables
 >>>>>>> 8738a85af4c867cf5ab9a2c35a8b70730ab1d887
